@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2773.63 2618.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3f3f3f;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 120px;
+      }
+
+      .cls-2 {
+        fill: #f2f2f2;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="0" y="0" width="1995" height="1995" rx="997.5" ry="997.5"/>
+  <line class="cls-1" x1="553" y1="407.46" x2="553" y2="1317.27"/>
+  <g>
+    <path class="cls-1" d="m1317.3,1002.59c18.23,24.02,36.65,48.95,56.11,75.91,82.31,114,106.66,287.63-10.85,422.14-93.1,106.57-186.71,86.91-438,86.91"/>
+    <path class="cls-1" d="m804.42,1588.97c343.84-390.21,429.79-479.66,568.99-672.46,82.31-114,106.66-287.63-10.85-422.14-93.1-106.57-186.71-86.91-438-86.91"/>
+    <line class="cls-1" x1="920.65" y1="407.46" x2="920.65" y2="1586.97"/>
+    <line class="cls-1" x1="922.12" y1="407.46" x2="922.12" y2="1586.97"/>
+  </g>
+  <line class="cls-1" x1="563.04" y1="1317.59" x2="1099.57" y2="781.06"/>
+</svg>
