@@ -92,7 +92,7 @@ img {
 	background-color: var(--first-color);
 }
 .section {
-	padding-top: 3rem;
+	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
 
@@ -294,6 +294,9 @@ img {
 }
 /* about */
 
+#about {
+	background-color: var(--light-color);
+}
 .about__container {
 	row-gap: 2rem;
 	text-align: center;
