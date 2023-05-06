@@ -381,7 +381,9 @@ img {
 }
 
 /* work */
-
+#work {
+	background-color: var(--light-color);
+}
 .work__container {
 	row-gap: 2rem;
 }
@@ -398,4 +400,25 @@ img {
 
 .work__img img:hover {
 	transform: scale(1.1);
+}
+
+/* contact */
+.contact__input {
+	width: 100%;
+	font-size: var(--normal-font-size);
+	font-weight: var(--font-semi);
+	padding: 1rem;
+	border-radius: 0.5rem;
+	border: 1.5px solid var(--light-color);
+	outline: none;
+	margin-bottom: var(--mb-4);
+}
+
+.contact__button {
+	display: block;
+	border: none;
+	outline: none;
+	font-size: var(--normal-font-size);
+	cursor: pointer;
+	margin-left: auto;
 }
