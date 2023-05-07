@@ -255,8 +255,7 @@ img {
 .home__title-color {
 	color: var(--first-color);
 }
-.home__social {
-}
+
 .home__social-icon {
 	width: max-content;
 	font-size: 2.2rem;
@@ -453,7 +452,7 @@ img {
 		border: 2px solid black;
 	}
 
-	animation: morph 8000ms ease-in-out infinite;
+	animation: morph 6000ms ease-in-out infinite;
 	border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
 	position: relative;
 	transition: all 1s ease-in-out;
