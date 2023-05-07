@@ -406,6 +406,7 @@ img {
 	font-size: var(--normal-font-size);
 	cursor: pointer;
 	margin-left: auto;
+	margin-right: auto;
 }
 /* footer */
 .footer {
@@ -417,11 +418,11 @@ img {
 }
 
 .footer__social {
-	margin-bottom: var(--mb-4);
+	margin-bottom: var(--mb-2);
 }
 
 .footer__icon {
-	font-size: 1.5rem;
+	font-size: 2.2rem;
 	color: #fff;
 	margin: 0 var(--mb-2);
 }
@@ -483,24 +484,24 @@ img {
 	.home {
 		padding: 4rem 0 2rem;
 	}
-	.home__social {
-		position: relative;
-		left: -24rem;
-		top: -11rem;
-	}
 	.home__social-icon {
 		margin-bottom: 0;
 		margin-right: var(--mb-4);
 	}
+	.home__social {
+		position: absolute;
+		left: 2rem;
+		top: 14rem;
+	}
 	.hero-img {
-		position: relative;
-		left: 17rem;
-		top: -2rem;
+		position: absolute;
+		left: 8rem;
+		top: -16rem;
 	}
 	.contact-button {
-		position: relative;
-		left: -25rem;
-		top: -11rem;
+		position: absolute;
+		left: 1rem;
+		top: 10rem;
 	}
 	.interactive-header {
 		height: 8rem;
@@ -578,7 +579,7 @@ img {
 		text-align: initial;
 	}
 	.work__container {
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		column-gap: 2rem;
 	}
 }
