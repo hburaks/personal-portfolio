@@ -581,6 +581,17 @@ img {
 		grid-template-columns: repeat(2, 1fr);
 		column-gap: 2rem;
 	}
+	.footer-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	.footer__social {
+		margin-bottom: 0;
+	}
+	.footer__copy {
+		display: flex;
+		align-items: center;
+	}
 }
 
 @media screen and (min-width: 992px) {
