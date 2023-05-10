@@ -387,26 +387,42 @@ img {
 }
 
 /* contact */
-.contact__input {
+.contact__icon-box span {
+	background-color: #fff;
+	border-radius: 50%;
 	width: 100%;
-	font-size: var(--normal-font-size);
-	font-weight: var(--font-semi);
+	aspect-ratio: 1/1;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	padding: 1rem;
-	border-radius: 0.5rem;
-	border: 1.5px solid var(--light-color);
-	outline: none;
-	margin-bottom: var(--mb-4);
+}
+.contact__icon-box {
+	align-items: center;
+	display: flex;
+	gap: 1.5rem;
+}
+.contact__icons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+.contact__icon {
+	font-size: 2.2rem;
+	color: var(--first-color);
+}
+.contact__content {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+.contact__info a {
+	text-decoration: none;
+	color: var(--second-color);
+}
+.contact__info a:hover {
+	color: var(--first-color);
 }
 
-.contact__button {
-	display: block;
-	border: none;
-	outline: none;
-	font-size: var(--normal-font-size);
-	cursor: pointer;
-	margin-left: auto;
-	margin-right: auto;
-}
 /* footer */
 .footer {
 	background-color: var(--second-color);
@@ -487,6 +503,9 @@ img {
 		margin-bottom: 0;
 		margin-right: var(--mb-4);
 	}
+	.interactive-header {
+		display: block;
+	}
 	.home__social {
 		position: absolute;
 		left: 2rem;
@@ -494,8 +513,8 @@ img {
 	}
 	.hero-img {
 		position: absolute;
-		left: 8rem;
-		top: -16rem;
+		right: 2rem;
+		bottom: -8rem;
 	}
 	.contact-button {
 		position: absolute;
@@ -592,6 +611,12 @@ img {
 		display: flex;
 		align-items: center;
 	}
+	.contact__icons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8rem;
+		margin-top: 2rem;
+	}
 }
 
 @media screen and (min-width: 992px) {
@@ -602,40 +627,4 @@ img {
 	.home {
 		padding: 10rem 0 2rem;
 	}
-}
-
-.contact__icon-box span {
-	background-color: #fff;
-	border-radius: 50%;
-	width: 100%;
-	aspect-ratio: 1/1;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	padding: 1rem;
-}
-.contact__icon-box {
-	align-items: center;
-	display: flex;
-	gap: 1.5rem;
-}
-.contact__icons {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 8rem;
-	margin-top: 2rem;
-}
-.contact__icon {
-	font-size: 2.2rem;
-	color: var(--first-color);
-}
-.contact__content {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 2rem;
-}
-.contact__info a {
-	text-decoration: none;
-	color: var(--second-color);
-}
-.contact__info a:hover {
-	color: var(--first-color);
 }
