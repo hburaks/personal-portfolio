@@ -603,3 +603,39 @@ img {
 		padding: 10rem 0 2rem;
 	}
 }
+
+.contact__icon-box span {
+	background-color: #fff;
+	border-radius: 50%;
+	width: 100%;
+	aspect-ratio: 1/1;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+}
+.contact__icon-box {
+	align-items: center;
+	display: flex;
+	gap: 1.5rem;
+}
+.contact__icons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8rem;
+	margin-top: 2rem;
+}
+.contact__icon {
+	font-size: 2.2rem;
+	color: var(--first-color);
+}
+.contact__content {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+.contact__info a {
+	text-decoration: none;
+	color: var(--second-color);
+}
+.contact__info a:hover {
+	color: var(--first-color);
+}

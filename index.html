@@ -174,33 +174,33 @@
 				<h2 class="section-title">Contact</h2>
 
 				<div class="contact__container bd-grid">
-					<form
-						action="mailto:hasanburaksongur@gmail.com"
-						method="post"
-						enctype="text/plain"
-						class="contact__form"
-					>
-						<input
-							type="text"
-							name="name"
-							placeholder="Name"
-							class="contact__input"
-						/>
-						<input
-							type="mail"
-							name="email"
-							placeholder="Email"
-							class="contact__input"
-						/>
-						<textarea
-							name="message"
-							id=""
-							cols="0"
-							rows="10"
-							class="contact__input"
-						></textarea>
-						<input type="submit" value="Send" class="contact__button button" />
-					</form>
+					<div class="contact__content">
+						<div class="contact__icons">
+							<div class="contact__icon-box">
+								<span class="contact__icon">
+									<i class="bx bx-map"></i>
+								</span>
+								<div class="contact__info">
+									<h2>Location</h2>
+									<p>İzmir, Turkey</p>
+								</div>
+							</div>
+							<div
+								class="contact__icon-box"
+								href="mailto:hasanburaksongur@gmail.com"
+							>
+								<span class="contact__icon"
+									><i class="bx bxs-envelope-open"></i
+								></span>
+								<div class="contact__info">
+									<h2>Mail</h2>
+									<a href="mailto:hasanburaksongur@gmail.com"
+										>hasanburaksongur@gmail.com</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -222,8 +222,8 @@
 						><i class="bx bxl-github"></i
 					></a>
 				</div>
-						</footer>
 			</div>
+		</footer>
 
 		<script src="https://unpkg.com/scrollreveal"></script>
 		<script src="./main/main.js"></script>
