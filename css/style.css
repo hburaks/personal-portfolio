@@ -730,7 +730,7 @@ img {
 		max-width: 1024px;
 		height: 30rem;
 		display: flex;
-
+		gap: 2rem;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
@@ -749,8 +749,5 @@ img {
 	.img__container {
 		height: 100%;
 		margin-bottom: 0rem;
-	}
-	.text__container {
-		margin-left: 2rem;
 	}
 }
