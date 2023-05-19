@@ -280,6 +280,9 @@ img {
 .button:hover {
 	box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
+.cv-button {
+	padding-inline: 3.7rem;
+}
 /* about */
 
 #about {
@@ -637,7 +640,12 @@ img {
 	}
 	.contact-button {
 		position: absolute;
-		left: 1rem;
+		left: 0rem;
+		top: 10rem;
+	}
+	.cv-button {
+		position: absolute;
+		left: 10rem;
 		top: 10rem;
 	}
 	.interactive-header {
@@ -682,7 +690,7 @@ img {
 		padding-top: 2rem;
 	}
 	.about__img img {
-		width: 300px;
+		width: 400px;
 	}
 	.skills__container {
 		grid-template-columns: repeat(1, 0.5fr);
